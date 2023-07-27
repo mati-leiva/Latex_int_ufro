@@ -1,0 +1,32 @@
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P2}\end{center}}
+    \vspace{1cm}
+    Para resolver esta integral usaremos bastantes trucos, asi que vamos a ir paso a paso. Primero, vamos a hacer la siguiente integración por partes:
+
+    \[\int_{0}^{\infty}\frac{dx}{ {(x^4 +1)}^n} = \I(n), \hspace{0.5cm}\PorPartes{\frac{1}{{(x^4 +1)}^n}}{\frac{-n\cdot 4x^3}{{(x^4 +1)}^{n+1}}}{dx}{x} = \frac{x}{{(x^4 +1)}^n} 
+    \Brackets_{0}^{\infty} + 4n\int_{0}^{\infty}\frac{x^4}{{(x^4 +1)}^{n+1}}dx\]
+    \\
+
+
+    \[\I(n) = 4n\int_{0}^{\infty}\frac{x^4}{{(x^4 +1)}^{n+1}}dx = 4n\int_{0}^{\infty}\frac{x^4 + 1 - 1}{{(x^4 +1)}^{n+1}}dx = 4n\cdot \I(n) - 4n \cdot\I(n+1)\] 
+    \\
+Aquí usamos la siguiente formula de recurrencia: 
+    \[\I(n) = 4n \cdot \I(n) - 4n \cdot \I(n+1) \implies \I(n+1) =  \frac{4n-1}{4n}\cdot\I(n)\]
+
+    \[\therefore \I(3) = \frac{4\cdot 2 - 1}{4\cdot2} \cdot \frac{4\cdot1 - 1}{4\cdot1}\cdot\I(1)\]
+
+    Ahora nos queda calcular $\I(1)$, para ello usamos la siguiente sustitución:\footnote{Un compañero en instagram resolvió una integral similar, aquí les dejo el link de la solución: \href{https://www.instagram.com/p/Cr7I89yg4Ww/?img_index=2}{IntegralesQueHablan solución.} }
+
+    \[\int_{0}^{\infty}\frac{dx}{1 + x^4} = \int_{0}^{\infty}\frac{dx}{\mathlarger{\frac{1}{x^2}} + x^2}\cdot\frac{1}{x^2} \hspace*{0.2cm}\cambio{\mathlarger{\frac{1}{x}} = u \vspace{0.1cm}}{\mathlarger{\frac{1}{x^2}}dx = -du} \rightarrow  \hspace{0.2cm}\Porlo\I = \int_{0}^{\infty}\frac{du}{u^2 + \mathlarger{\frac{1}{u^2}}} = \I = \int_{0}^{\infty}\frac{u^2}{u^4 + 1 }du \]
+    \\
+
+
+    \[ 2\I = \int_{0}^{\infty}\frac{x^2 + 1}{x^4 +1}dx = \int_{0}^{\infty}\frac{1 + \mathlarger{\frac{1}{x^2}}}{ {(x - \mathlarger{\frac{1}{x}})}^2 + 2 }\cdot\frac{1}{x^2}\hspace{0.1cm} dx \cambio{x - \mathlarger{\frac{1}{x}} = u \vspace{0.13cm}}{1 + \mathlarger{\frac{1}{x^2}}dx = du}\]
+
+    \[2\I = \int_{-\infty}^{\infty}\frac{1}{u^2 + 2}du \hspace{1cm}\Porlo\I = \int_{0}^{\infty}\frac{1}{u^2 + 2}du = \frac{\pi}{2\sqrt{2}}\]
+    \\
+
+    Finalmente tendríamos que, $\I(3) = \mathlarger{\frac{4\cdot 2 - 1}{4\cdot2} \cdot \frac{4\cdot1 - 1}{4\cdot1}\cdot  \frac{\pi}{2\sqrt{2}} = \frac{21\pi}{64\sqrt{2}}}$
+
+    \vspace{6cm}
+ 
+\end{CajaTitulo}

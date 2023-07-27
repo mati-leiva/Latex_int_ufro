@@ -1,0 +1,26 @@
+
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P1}\end{center}}
+\vspace{1cm}
+    Sea $\I$ la integral a resolver, entonces, tenemos que: \[ \I =  \int_{0}^{\mathlarger{\frac{\pi}{2}}}\frac{\sqrt[3]{\tan{(x)}}dx}{{(\sin{(x)}+\cos{(x)})}^2} \cdot \frac{\sec{(x)}^2}{\sec{(x)}^2}\]
+    Entonces obtenemos la siguiente integral: \[\I =  \int_{0}^{\mathlarger{\frac{\pi}{2}}}\frac{\sqrt[3]{\tan{(x)}}\cdot \sec{(x)}^2 dx}{{(\tan{(x)}+1)}^2}\]
+    Haciendo el siguiente cambio de variable: \\ \\
+
+    \[\cambio{\tan{(x)} = u}{\sec{(x)}^2 dx = du}  \Porlo \I = \int_{0}^{\infty}\frac{\sqrt[3]{u}}{{(u+1)}^2} du  \hspace{0.1cm} \rightarrow \cambio{\sqrt[3]{u} = a \vspace{0.1cm}}{\mathlarger{\frac{\sqrt[3]{u}}{3u}}du = da} \Porlo\I = \int_{0}^{\infty}\frac{3u^3}{{(1+u^3)}^2}du\]
+
+
+    Luego realizando integración por partes, obtenemos: \[ \int_{0}^{\infty}\frac{3x^3}{{(1+x^3)}^2}dx = \PorPartes{x}{\diff x}{\frac{3u^2}{{(u^3+1)}^2}\diff u}{\frac{-1}{(u^3 +1)}} \implies \frac{-x}{{(x^3+1)}^2} \Brackets_0^\infty  + \int_{0}^{\infty} \frac{1}{x^3 + 1}dx \] \\
+
+    Ahora para realizar la Integral $\mathlarger{\int_{0}^{\infty} \frac{1}{x^3 + 1}dx}$, hacemos el siguiente truco, llamemos a la integral $\I$, entonces: \\ \\
+
+    \[\cambio{\mathlarger{\frac{1}{x}} = u \vspace{0.2cm}}{\mathlarger{\frac{1}{x^2}dx}= -du} \Porlo \I = \int_{0}^{\infty}\frac{u}{u^3 +1}du \rightarrow 2\I = \int_{0}^{\infty}\frac{u}{u^3 +1}du + \int_{0}^{\infty} \frac{1}{x^3 + 1}dx\]
+
+    Entonces la integral $\I = \mathlarger{\frac{1}{2}\int_{0}^{\infty}\frac{1}{x^2 -x +1}dx}$, ahora para resolver, completamos el cuadrado en el denominador, obteniendo lo siguiente: \[ \I = \frac{1}{2}\int_{0}^{\infty}\frac{1}{{(x-\frac{1}{2})}^2 + \frac{3}{4}}dx \] \\
+
+    Después los siguientes pasos es transformar la integral, para obtener un arco tangente, lo que resulta en la siguiente expresión: \\
+
+    % Necesito que hagas una arco tangente y la completes
+
+    \[\lim_{s \to \infty}  \frac{1}{\sqrt{3}} \arctan(x) \Brackets_\mathlarger{\frac{-1}{\sqrt{3}}} ^\mathlarger{s} = \frac{2\pi}{3\sqrt{3}}   \]
+
+    \vspace{2cm}
+\end{CajaTitulo}

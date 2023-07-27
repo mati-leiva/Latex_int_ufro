@@ -1,0 +1,10 @@
+
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P6}\end{center}}
+    \vspace{0.5cm}
+\[\int_{0}^{2\pi}\frac{d\theta}{1 - 2a\cos(\theta) + a^2}\footnote{Aquí asumí que $a$ era mayor que 1, después habría que hacer varios cambios, en cuanto valores absolutos y cosas así, tarea para el lector muejejej.} = \cambio{\theta - \pi = x}{d\theta = dx} \rightarrow \int_{-\pi}^{\pi}\frac{dx}{1 - 2a\cos(x + \pi) + a^2} = \int_{-\pi}^{\pi}\frac{dx}{1 + 2a\cos(x) + a^2} = \cambio{\tan(\frac{x}{2}) = u}{dx = \mathlarger{\frac{2du}{1 + u^2}}} \]
+\\
+\[\int_{-\infty}^{\infty}\frac{2du}{2a(1-u^2) + (a^2 + 1)(1+u^2)} = \int_{-\infty}^{\infty}\frac{2du}{(a^2 +1)u^2 - 2au^2 + (a^2 +2a +1 )} = \int_{-\infty}^{\infty}\frac{2du}{{(a - 1)}^2u^2  + {(a+1)}^2}\]
+\\
+\[\frac{2}{{(a - 1)}^2}\int_{-\infty}^{\infty}\frac{du}{u^2  + \mathlarger{\frac{{(a+1)}^2}{{(a - 1)}^2}}} = \frac{2}{{(a - 1)}^2}\cdot\frac{{(a - 1)}}{{(a+1)}}\cdot\arctan\left(\frac{x(a-1)}{a+1}\right)\Brackets_{-\infty}^{\infty} = \frac{2\pi}{a^2 -1}\]
+\vspace{4cm}
+\end{CajaTitulo}
