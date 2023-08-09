@@ -8,3 +8,4 @@
 \contentsline {subsection}{\numberline {2.5}Solución P5}{8}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Solución P6}{9}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Integrales Segundo Semestre 2023}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Solución P7}{11}{subsection.3.1}%
