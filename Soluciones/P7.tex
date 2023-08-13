@@ -14,7 +14,14 @@
     \[\I(a) = \int_{0}^{\infty}e^{-x^2}\cos(ax)dx = \frac{\sqrt{\pi}}{2}e^{\mathlarger{\frac{-a^2}{4}}}\]
     \[\I(1) = \int_{0}^{\infty}e^{-x^2}\cos(x)dx =  \frac{\sqrt{\pi}}{2}e^{\mathlarger{\frac{-1}{4}}}  \hspace{1cm}\square\]
 
-    
-    
+    Demostración de la integral de Gaussiana:
+    \\
 
+    Consideremos la siguiente función:
+
+    \[\I(a) = \int_{0}^{\infty}\frac{ e^{-a^2(1+x^2)}}{1 + x^2}dx \hspace{0.2cm} \Flecha{\mathlarger{\frac{d}{da}}} \: \: \I'(a) = \int_{0}^{\infty}e^{-a^2(1+x^2)}(-2a) = (-2a)e^{-a^2}\int_{0}^{\infty}e^{-(ax)^2} dx \]
+    \[\I'(a) = (-2a)e^{-a^2} \int_{0}^{\infty}e^{-{(ax)}^2} dx \hspace{0.2cm}   \cambio{ax = u}{dx \cdot a = du} = (-2) e^{-a^2} \int_{0}^{\infty}e^{-{u}^2}du\]
+    \[\int_{0}^{\infty}\I'(a)da = (-2) \int_{0}^{\infty}e^{-a^2}da \int_{0}^{\infty}e^{-{u}^2}du \implies \I(\infty) - \I(0) = -2 \left(\int_{0}^{\infty}e^{-{u}^2}du\right)^2\]
+    \[\frac{-\pi}{2} = -2\left(\int_{0}^{\infty}e^{-{u}^2}du\right)^2 \hspace{0.2cm}\]
+    \[ \Porlo  \int_{0}^{\infty}e^{-x^2}dx = \frac{\sqrt{\pi}}{2}\]
 \end{CajaTitulo}

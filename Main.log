@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.28)  9 AUG 2023 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.28)  13 AUG 2023 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,7 +636,7 @@ Package geometry Warning: Over-specification in `h'-direction.
     `width' (284.52756pt) is ignored.
 
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 96.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 98.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -646,29 +646,29 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./Main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux))
+ (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Info: Redefining \. on input line 96.
-LaTeX Info: Redefining \% on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count328
@@ -689,7 +689,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count334
-Package hyperref Info: Link coloring ON on input line 96.
+Package hyperref Info: Link coloring ON on input line 98.
  (./Main.out) (./Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
@@ -729,17 +729,17 @@ Package hyperref Info: Link coloring ON on input line 96.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<Imagenes/Logo.png, id=83, 813.0375pt x 813.0375pt>
+<Imagenes/Logo.png, id=87, 813.0375pt x 813.0375pt>
 File: Imagenes/Logo.png Graphic file (type png)
 <use Imagenes/Logo.png>
-Package pdftex.def Info: Imagenes/Logo.png  used on input line 116.
+Package pdftex.def Info: Imagenes/Logo.png  used on input line 118.
 (pdftex.def)             Requested size: 216.23764pt x 216.23549pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Imagenes/Logo.png>]
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 126.
+(fancyhdr)                Please consider using the `twoside' option on input line 128.
 
 (./Main.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -785,7 +785,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.131 \include{Problemas/primera_pag}
+l.133 \include{Problemas/primera_pag}
                                       [1]
 \openout2 = `Problemas/primera_pag.aux'.
 
@@ -801,29 +801,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ) [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<Imagenes/gato.jpg, id=129, 253.94875pt x 199.74625pt>
+<Imagenes/gato.jpg, id=134, 253.94875pt x 199.74625pt>
 File: Imagenes/gato.jpg Graphic file (type jpg)
 <use Imagenes/gato.jpg>
-Package pdftex.def Info: Imagenes/gato.jpg  used on input line 145.
+Package pdftex.def Info: Imagenes/gato.jpg  used on input line 147.
 (pdftex.def)             Requested size: 151.36568pt x 119.06232pt.
 [3
 
@@ -953,30 +953,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 ]
 \openout2 = `Soluciones/P7.aux'.
 
- (./Soluciones/P7.tex) [11
+ (./Soluciones/P7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+) [11
+
+
+
+]
+\openout2 = `Soluciones/P8.aux'.
+
+ (./Soluciones/P8.tex) [12
 
 
 
 ] (./Main.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
- (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux))
+ (./Problemas/primera_pag.aux) (./Soluciones/P1.aux) (./Soluciones/P2.aux) (./Soluciones/P3.aux) (./Soluciones/P4.aux) (./Soluciones/P5.aux) (./Soluciones/P6.aux) (./Problemas/Segunda_pag.aux) (./Soluciones/P7.aux) (./Soluciones/P8.aux))
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: FDD7B220AEFDD10B3E3B75F6CE14B8D5;1339.
+(rerunfilecheck)             Checksum: 5DEF259F2A2E66BBC1347C166D131B99;1458.
  ) 
 Here is how much of TeX's memory you used:
- 29560 strings out of 476091
- 588074 string characters out of 5794081
+ 29596 strings out of 476091
+ 589029 string characters out of 5794081
  1881330 words of memory out of 5000000
- 49323 multiletter control sequences out of 15000+600000
- 586395 words of font info for 90 fonts, out of 8000000 for 9000
+ 49348 multiletter control sequences out of 15000+600000
+ 590658 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,18n,104p,562b,634s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Main.pdf (12 pages, 705638 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Main.pdf (13 pages, 727984 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 330 PDF objects out of 1000 (max. 8388607)
+ 239 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,24 @@
+\begin{CajaTitulo}{\begin{center}\subsection{Solución P7}\end{center}}
+    \vspace{0.7cm}
+    \[\int_{0}^{\infty}xe^{-x^3}dx \:\cambio{x^3 = u}{ dx = du \mathlarger{\frac{\sqrt[3]{u^2}}{3}}} = \int_{0}^{\infty}e^u u^{-\frac{1}{3}}du = \frac{1}{3}\varGamma\left(\frac{2}{3}\right)\]
+    Una integral que en si, tiene una solución bastante sencilla, pero que podemos sacarle ``\textit{jugo}'' resolviéndola de otra forma.\\ 
+    \vspace{0.3cm}
+
+    \[\int_{0}^{\infty}\frac{e^{-(1+x^3)a^3}}{1+x^3}dx = \I(a) \: \Flecha{\mathlarger{\frac{d}{da}}} \: \: -3a^2\int_{0}^{\infty}e^{-(1+x^3)a^3}dx = \I'(a) \]
+    \[-3a^2e^{-a^3}\int_{0}^{\infty}e^{{(ax)}^3}dx = \I'(a) \: \cambio{ax = u}{dx \cdot a = du} = -3a\cdot e^{-a^3}\int_{0}^{\infty}e^{-x^3}dx = \I'(a)\]
+    \[-3\int_{0}^{\infty}e^{-a^3}a\:da\int_{0}^{\infty}e^{-u^3}du = \I(\infty) - \I(0) \rightarrow -3\int_{0}^{\infty}e^{-a^3}a\:da\int_{0}^{\infty}e^{-u^3}du = -\frac{2\pi}{3\sqrt{3}} \]
+    \[\int_{0}^{\infty}e^{-a^3}a\:da\int_{0}^{\infty}e^{-u^3}du = \frac{2\pi}{3\sqrt{3}}\]
+    \[\int_{0}^{\infty}e^{-u^3}du =  \implies \int_{0}^{\infty}e^{-u^3}du  = \frac{2\pi}{3\sqrt{3} \:\varGamma\left(\frac{2}{3}\right)}\]
+    \[\Porlo \varGamma\left(\frac{1}{3}\right)\varGamma\left(\frac{2}{3}\right) =  \frac{2\pi}{9\sqrt{3}}  =\varGamma\left(1 - \frac{2}{3}\right)\varGamma\left(\frac{2}{3}\right) \]
+    Con esto, podemos notar una relación entre el producto de dos funciones $\varGamma$, esta relación es llama la \textbf{fórmula de reflexión de Euler}.  
+        \[\varGamma(z)\varGamma(1-z) = \frac{\pi}{\sin(\pi z)}\]
+    \vspace{0.3cm}
+    \[\int_{0}^{\infty}\frac{e^{-(1+x^n)a^n}}{1+x^n}dx = \I(a) \: \Flecha{\mathlarger{\frac{d}{da}}} -n(a^{n-1})e^{-a^n}\int_{0}^{\infty}e^{-{(ax)}^n}dx = \I'(a) \]
+    \[\int_{0}^{\infty}(a^{n-1})e^{-a^n}da\int_{0}^{\infty}e^{-{(ax)}^n}dx = \frac{1}{n}\int_{0}^{\infty}\frac{1}{1+x^n}dx\]
+    \[\int_{0}^{\infty}(a^{n-1})e^{-a^n}da\int_{0}^{\infty}e^{-u}u^{\mathlarger{\frac{1}{n}}-1}n \:du = \frac{1}{n}\int_{0}^{\infty}\frac{1}{1+x^n}dx\]
+    \[\varGamma(n)\cdot \varGamma\left(\frac{1}{n}-1\right)\frac{1}{n} = \frac{1}{n}\int_{0}^{\infty}\frac{1}{1+x^n}dx\]
+    \[\varGamma(n)\cdot \varGamma\left(1-n\right) = \frac{1}{n}\int_{0}^{\infty}\frac{1}{1+x^n}dx\cambio{x = \tan^{\mathlarger{\frac{2}{n}}}(u) \vspace{0.2cm}}{dx = {\frac{2}{n^2}}  du\cdot{\tan(u)}^{\mathlarger{\frac{2}{n}}-1}\sec^2(u)} = \frac{2}{n^2}\int_{0}^{\mathlarger{\frac{\pi}{2}}}{\tan(u)}^{\mathlarger{\frac{2}{n}}-1}\cdot \:\frac{\sec^2(u)}{\sec^2(u)}\cdot du\]
+    \[\frac{2}{n^2}\int_{0}^{\mathlarger{\frac{\pi}{2}}}{\tan(u)}^{\mathlarger{\frac{2}{n}}-1}du \footnote{De aquí no sé como seguir, se los dejo a ustedes, tengo fé.}\]
+
+    
+\end{CajaTitulo}
