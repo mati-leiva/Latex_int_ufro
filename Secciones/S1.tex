@@ -1,0 +1,56 @@
+\section{Conjuntos y Funciones}
+
+Una de las deficiones más importantes es la defición de conjunto. Esta es una de las definiciones más intuitivas, pero a la vez más difíciles de definir.
+La definición de conjunto que se utilizará es la siguiente: \textit{Un conjunto es una colección no ordenada de elementos distintos.}\footnotemark[1]
+
+
+\begin{Def}{Conjuntos}{Def_Conjuntos}
+    \begin{itemize}{}
+        \item  El conjunto sin elementos ($\{ \}$) se denota por $\emptyset$.
+        \item Si $x \in B $ para todo $x \in A $, entonces $A$ es un subconjunto de $B$ y se denota por $A \subseteq B$.
+        \item La unión de dos conjuntos $A$ y $B$ es el conjunto $A \cup B = \{ x | \hspace{0.1cm} x \in A \lor x \in B \}$.
+        \item La intersección de dos conjuntos $A$ y $B$ es el conjunto $A \cap B = \{ x | \hspace{0.1cm} x \in A \land x \in B \}$.
+    \end{itemize}
+\end{Def}
+
+\vspace{1cm}
+
+Ahora se definirá el concepto de función. Una función es una relación entre dos conjuntos, Dado un conjunto $A$ y un conjunto $B$, una función $f$ de $A$ en $B$ es
+una regla que asigna a cada elemento $x \in A$ un único elemento $f(x) \in B$. Se denota por $f: A \rightarrow B$.
+\begin{enumerate}
+    \item   Además, $A$ es el dominio de $f$ y $B$ es el codominio de $f$. El rango de $f$ es el conjunto de todos los valores que toma $f$ y se denota por $R_{f}$. (Es decir, $R_{f} = \{ f(x) | \hspace{0.1cm} x \in A \}$).\vspace{0.1cm}
+    \item   Una función $f: A \rightarrow B$ es inyectiva si $f(x) = f(y) \Rightarrow x = y$ para todo $x,y \in A$.\footnotemark[2]
+    \item   Una función $f: A \rightarrow B$ es sobreyectiva si para todo $x \in B$, existe algún $a \in A$, tal que, $f(a)=B$.\footnotemark[3]
+    \item   Una función es biyectiva si es inyectiva y sobreyectiva.
+\end{enumerate}
+
+\footnotetext[1]{\textit{Todo es un conjunto}}
+\footnotetext[2]{\textit{Igualmente se puede definir de la siguiente manera: $f$ es inyectiva si $x \neq y \Rightarrow f(x) \neq f(y)$ para todo $x,y \in A$.}}
+\footnotetext[3]{$\forall x \in B \hspace{0.1cm} \exists a \in A \hspace{0.1cm} |\hspace{0.1cm} f(a) = b$}
+
+\newpage
+
+\section{Propiedades del valor absoluto}
+\vspace{0.3cm}
+\begin{multicols}{2}
+\begin{enumerate}[parsep =6pt, itemsep = 15pt]
+    \item $|x| \geq 0$ para todo $x \in \mathbb{R}$.
+    \item $|x| = |-x|$
+    \item $-|x| \leq x \leq |x|$
+    \item $|a\cdot b| =  |a|\cdot|b|$
+    \item $\mathlarger{\frac{|a|}{|b|} = \left|\frac{a}{b}\right|}, \hspace{0.1cm} b \neq 0$
+    \item $|a| \leq b \Leftrightarrow -b \leq a \leq b$
+    \item $|a+b| \leq |a| + |b|$
+    \item $||a|-|b|| \leq |a-b|$
+\end{enumerate}
+\end{multicols}
+
+\begin{Problemas}{}{}
+Demuestre las siguientes propiedades del valor absoluto:
+\begin{itemize}[parsep =6pt, itemsep = 15pt]
+    \item $|a| \leq b \Leftrightarrow -b \leq a \leq b$
+    \item $|a+b| \leq |a| + |b|$
+    \item $||a|-|b|| \leq |a-b|$
+\end{itemize}
+\end{Problemas}
+

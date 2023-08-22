@@ -1,0 +1,123 @@
+\ProvidesPackage{setup}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{fancyhdr}
+\usepackage{relsize}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[most]{tcolorbox}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{enumitem}
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=magenta,
+    pdftitle={Análisis Real},
+    pdfpagemode=FullScreen,}
+
+\urlstyle{same}
+
+\usepackage[left = 1cm, right = 1cm,top = 1.25cm, bottom=1.50cm,% Set the height and width of the paper
+    includehead,
+    nomarginpar,% We don't want any margin paragraphs
+    textwidth=10cm,% Set \textwidth to 10cm
+    headheight=20pt,% Set \headheight to 25pt to accommodate the multiline header
+]{geometry}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+%* Colores lindos
+
+\definecolor{AzulClaro}{rgb}{0.8,0.85,1}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+%* Comandos y cajas de texto
+
+  \newtcbtheorem{Def}{\bfseries Definición}{enhanced,
+  coltitle=black,
+  top=15pt,
+  colframe=black!75!AzulClaro,%
+  attach boxed title to top left=
+  {xshift=2em,yshift=-\tcboxedtitleheight/2 + 1em},
+  boxed title style={size=small,colback=AzulClaro}
+}{Def}{}
+
+\newtcbtheorem{Problemas}{\bfseries Problemas}{enhanced,
+coltitle=black,
+top=15pt,
+colframe=black!80!red,
+attach boxed title to top left=
+{xshift=2em,yshift=-\tcboxedtitleheight/2 + 1em},
+boxed title style={size=small,colback=red!20!white}
+}{Problemas}{}
+
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+%* Comandos para integrales
+
+
+\newcommand{\cambio}[2]{
+    \begin{cases}
+        #1 \\
+        #2
+    \end{cases}
+}
+
+\newcommand{\casillaCambio}[3]{
+    \begin{minipage}{0.4\linewidth}
+        \cambio{#1}{#2}
+    \end{minipage}
+    \begin{minipage}{0.5\linewidth}
+        $\implies#3$
+    \end{minipage}
+}
+
+
+\newcommand{\PorPartes}[4]
+{
+    \left[
+        \begin{alignedat}{2}
+            u       &=  #1             \quad & \diff v&= #3\\
+            \diff u&=  #2             \quad & v &= #4
+        \end{alignedat}\,
+        \right]
+}
+
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+
+
+%* Comandos para calidad de vida
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+\newcommand{\diff}{\mathop{}\!d}
+
+\newcommand{\Brackets}{\Big|}
+
+\newcommand{\I}{\mathcal{I}}
+
+\newcommand{\myHearts}
+{$\color{purple}{\heartsuit}\kern-2.5pt$}
+
+\newcommand{\Porlo}{
+    \therefore}
+
+\newcommand{\Flecha}[1]{\overset{#1}{\longrightarrow}}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+

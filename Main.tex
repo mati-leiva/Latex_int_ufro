@@ -1,105 +1,11 @@
-\documentclass[a4paper]{article}
-\usepackage{amssymb}
-\usepackage{amsthm}
-\usepackage{amsmath}
-\usepackage{latexsym}
-\usepackage{fancyhdr}
-\usepackage{relsize}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage[most]{tcolorbox}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen,
-    }
-
-\urlstyle{same}
-
-
-
-\usepackage[left = 1cm, right = 1cm,top = 1.25cm, bottom=1.50cm,% Set the height and width of the paper
-includehead,
-nomarginpar,% We don't want any margin paragraphs
-textwidth=10cm,% Set \textwidth to 10cm
-headheight=20pt,% Set \headheight to 25pt to accommodate the multiline header
-]{geometry}
-
-
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
-
-%* Comandos y cosas así
-
-\newtcolorbox{CajaTitulo}[1]{
-colback=yellow!5!white,%
-colframe=white!50!black,%
-title={#1},%
-}
-
-\newtcolorbox{CajaSolucion}{
-    colback=yellow!5!white,%
-    colframe=white!50!black,%
-}
-
-\newcommand{\cambio}[2]{
-        \begin{cases}
-        #1 \\ 
-        #2  
-        \end{cases}
-}
-
-\newcommand{\casillaCambio}[3]{
-\begin{minipage}{0.4\linewidth}
-    \cambio{#1}{#2}
-\end{minipage}
-\begin{minipage}{0.5\linewidth}
-    $\implies#3$
-\end{minipage}
-}
-
-\newcommand{\diff}{\mathop{}\!d}
-
-\newcommand{\PorPartes}[4]
-{
-    \left[
-      \begin{alignedat}{2}
-      u       &=  #1             \quad & \diff v&= #3\\
-      \diff u&=  #2             \quad & v &= #4
-      \end{alignedat}\,
-    \right]
-}
-
-\newcommand{\Brackets}{\Big|}
-
-
-\newcommand{\I}{\mathcal{I}}
-
-\newcommand{\myHearts}
- {$\color{purple}{\heartsuit}\kern-2.5pt$}
-
-\newcommand{\Porlo}{
-    \therefore}
-
-\newcommand{\Flecha}[1]{\overset{#1}{\longrightarrow}}
-
-
+\documentclass[letterpaper, 12pt]{article}
+\usepackage{setup}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %  
-
+    
 \pagestyle{plain}
 
 \begin{document}
-
-
-
-
 \begin{titlepage}
     \begin{center}
         \vspace*{1cm}
@@ -107,7 +13,7 @@ title={#1},%
         \LARGE\textbf{Análisis Real}
 
         \vspace{0.5cm}
-        
+
 
         \vspace{1cm}
 
@@ -121,8 +27,6 @@ title={#1},%
 
         \vspace{0.8cm}
 
-        
-
     \end{center}
 \end{titlepage}
 
@@ -132,11 +36,14 @@ title={#1},%
 \fancyhead{} % clear all header fields
 \fancyhead[RO,LE]{\textbf{Resumen de Análisis Real.}}
 
+% //////////////////////7777    COMIENZO DEL DOCUMENTO    7777///////////////////////////////
 
 \tableofcontents
 
-
 \newpage
+
+% //////////////////// SECCIONES  /////////////////////////////
+\include{Secciones/S1.tex}
 
 
 \end{document}
